@@ -25,8 +25,5 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/oneplus/common
-
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
